@@ -19,10 +19,54 @@ h2 {
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
 
+@keyframes color-change {
+    0% {
+      color: rgb(0, 255, 0);
+    }
+  
+    50% {
+      color: rgb(0, 247, 255);
+    }
+  
+    75% {
+      color: rgb(255, 0, 0);
+    }
 
+    100%{
+        color: rgb(0, 255, 0);
+    }
+}
 
+h1 {
+    animation:color-change 5s infinite;
+}
+
+@keyframes color-change2 {
+    0% {
+      color: rgb(0, 255, 0);
+    }
+  
+    50% {
+      color: rgb(255, 251, 0);
+    }
+  
+    100% {
+      color: rgb(43, 179, 189);
+    }
+}
+
+h2:hover{
+    animation:color-change2 3s infinite;
+}
 ul {
-    color: #1e6e7488; /* Başlık rengi */
+    color: #245a5e; /* Başlık rengi */
     font-size: 15px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+
+
+p {
+    color: #080d0e; /* Başlık rengi */
+    font-size: 17px; /* Başlık yazı tipi boyutu */
     font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
 }
